@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1 style="font-size: 70px; ;">RAHUL RAJA P</h1>
+            <p style="font-size: 25px;">
+                I'm a web deigner who loves to create beautiful and functional websites
+                for people who want to make a difference in the world.
+            </p>
+            <p style="font-size: 25px;">Currently I'm a student of The Francis Xavier Engineering college, where I'm learning my 
+                B.E degree in Computer Science and Engineering.</p>
+
+            <div class="social-media">
+                <a href="https://github.com/SPOOFYBUZZY"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/spoffy_buzzy_/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/rahul-raja-p-a0a130243"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="resumee.pdf" download >  <button class ="btn">Download CV</button></a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-palette'></i>
+                    <h3>UI/UX designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-paint'></i>
+                    <h3>Graphic Designer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/rahul2.png" alt="" style="filter: drop-shadow( black 10px 4px 2px);">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/rahul3.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm Rahul,
+                a passionate web developer who enjoys learning new technologies
+                and creating amazing designs..!
+            </h3>
+            <p>
+                This website is my personal blog where I post my web designing
+                projects and details.
+            </p>
+            <p>
+               
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Proficient in HTML, CSS, JavaScript and responsive design frameworks. Strong track record of delivering high-quality websites and applications and optimizing user experiences. </p>
+                <a href="#" class="btn">Tools</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Proficient in Graphic Designing Tools. Strong track record of delivering high-quality designs and logos and collaborating effectively with cross-functional teams to meet project goals.</p>
+                <a href="#" class="btn">Tools</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-palette'></i>
+                <h3>UI/UX Design</h3>
+                <p>Proficient in UI/UX Designing Tools.Where I can able to make responsible for creating user-centered designs for digital products, such as websites, and software interfaces. </p>
+                <a href="" class="btn">Tools</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">MY <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/studentpr.jpg" class="off" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Student Profile Management</h4>
+                    <p>Student Profile Management is a project where it can store the student deatils in the database.</p>
+                    <a href="https://github.com/SPOOFYBUZZY/Student-Profile-Management"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/weather.jpeg" class="off" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Weather Application</h4>
+                    <p>It shows Weather updates on all cities using Metro API an has a responsive Design.</p>
+                    <a href="https://github.com/SPOOFYBUZZY/Weather-Web-App"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/electricity.jpg" class="off" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Electricity Billing System</h4>
+                    <p>The Electricity Billing System is used to calculate the amount for the used current.</p>
+                    <a href="https://www.instagram.com/spoffy_buzzy_/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Achievements</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/patent.png" alt="">
+                        <h3>Patent</h3>
+                        <p>Women Safety Band Integrated with AI:
+                            - ID - 202341080120 A - issued on 22 December 2023.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/journel.webp" alt="">
+                        <h3>Journel </h3>
+                        <p>Survey on Lung cancer detection:
+                            -Published in Research Gate.</p>
+                    </div>
+                   
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+           
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
